@@ -1,0 +1,933 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SimpleTable Should render table correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SimpleTable
+    cols={
+        Array [
+            "_id",
+            "name",
+            "unitName",
+          ]
+    }
+    data={
+        Array [
+            Object {
+              "_id": 0.7969802703389741,
+              "createdAt": 2018-05-15T14:24:03.992Z,
+              "images": Object {
+                "file": Object {
+                  "url": "https tan tan tan",
+                },
+                "ref": "logo",
+              },
+              "name": "NOME A",
+              "unitName": "unitName A",
+            },
+            Object {
+              "_id": 0.019174600142986664,
+              "createdAt": 2018-05-15T14:24:03.992Z,
+              "images": Object {
+                "file": Object {
+                  "url": "https tan tan tan",
+                },
+                "ref": "logo",
+              },
+              "name": "NOME B",
+              "unitName": "unitName B",
+            },
+            Object {
+              "_id": 0.2753326440459658,
+              "createdAt": 2018-05-15T14:24:03.992Z,
+              "images": Object {
+                "file": Object {
+                  "url": "https tan tan tan",
+                },
+                "ref": "logo",
+              },
+              "name": "NOME C",
+              "unitName": "unitName C",
+            },
+            Object {
+              "_id": 0.4615763028025677,
+              "createdAt": 2018-05-15T14:24:03.992Z,
+              "images": Object {
+                "file": Object {
+                  "url": "https tan tan tan",
+                },
+                "ref": "logo",
+              },
+              "name": "NOME D",
+              "unitName": "unitName D",
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <thead>
+          <tr>
+                    <th>
+                              _id
+                    </th>
+                    <th>
+                              name
+                    </th>
+                    <th>
+                              unitName
+                    </th>
+          </tr>
+</thead>,
+        <tbody>
+          <tr>
+                    <td>
+                              0.7969802703389741
+                    </td>
+                    <td>
+                              NOME A
+                    </td>
+                    <td>
+                              unitName A
+                    </td>
+          </tr>
+          <tr>
+                    <td>
+                              0.019174600142986664
+                    </td>
+                    <td>
+                              NOME B
+                    </td>
+                    <td>
+                              unitName B
+                    </td>
+          </tr>
+          <tr>
+                    <td>
+                              0.2753326440459658
+                    </td>
+                    <td>
+                              NOME C
+                    </td>
+                    <td>
+                              unitName C
+                    </td>
+          </tr>
+          <tr>
+                    <td>
+                              0.4615763028025677
+                    </td>
+                    <td>
+                              NOME D
+                    </td>
+                    <td>
+                              unitName D
+                    </td>
+          </tr>
+</tbody>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <tr>
+            <th>
+                        _id
+            </th>
+            <th>
+                        name
+            </th>
+            <th>
+                        unitName
+            </th>
+</tr>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <th>
+                _id
+</th>,
+              <th>
+                name
+</th>,
+              <th>
+                unitName
+</th>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "key - 0 - _id",
+              "nodeType": "host",
+              "props": Object {
+                "children": "_id",
+              },
+              "ref": null,
+              "rendered": "_id",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": "key - 1 - name",
+              "nodeType": "host",
+              "props": Object {
+                "children": "name",
+              },
+              "ref": null,
+              "rendered": "name",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": "key - 2 - unitName",
+              "nodeType": "host",
+              "props": Object {
+                "children": "unitName",
+              },
+              "ref": null,
+              "rendered": "unitName",
+              "type": "th",
+            },
+          ],
+          "type": "tr",
+        },
+        "type": "thead",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <tr>
+              <td>
+                            0.7969802703389741
+              </td>
+              <td>
+                            NOME A
+              </td>
+              <td>
+                            unitName A
+              </td>
+</tr>,
+            <tr>
+              <td>
+                            0.019174600142986664
+              </td>
+              <td>
+                            NOME B
+              </td>
+              <td>
+                            unitName B
+              </td>
+</tr>,
+            <tr>
+              <td>
+                            0.2753326440459658
+              </td>
+              <td>
+                            NOME C
+              </td>
+              <td>
+                            unitName C
+              </td>
+</tr>,
+            <tr>
+              <td>
+                            0.4615763028025677
+              </td>
+              <td>
+                            NOME D
+              </td>
+              <td>
+                            unitName D
+              </td>
+</tr>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  0.7969802703389741
+</td>,
+                <td>
+                  NOME A
+</td>,
+                <td>
+                  unitName A
+</td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "key - 0 - 0.7969802703389741",
+                "nodeType": "host",
+                "props": Object {
+                  "children": 0.7969802703389741,
+                },
+                "ref": null,
+                "rendered": 0.7969802703389741,
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": "key - 1 - NOME A",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "NOME A",
+                },
+                "ref": null,
+                "rendered": "NOME A",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": "key - 2 - unitName A",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "unitName A",
+                },
+                "ref": null,
+                "rendered": "unitName A",
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  0.019174600142986664
+</td>,
+                <td>
+                  NOME B
+</td>,
+                <td>
+                  unitName B
+</td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "key - 0 - 0.019174600142986664",
+                "nodeType": "host",
+                "props": Object {
+                  "children": 0.019174600142986664,
+                },
+                "ref": null,
+                "rendered": 0.019174600142986664,
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": "key - 1 - NOME B",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "NOME B",
+                },
+                "ref": null,
+                "rendered": "NOME B",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": "key - 2 - unitName B",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "unitName B",
+                },
+                "ref": null,
+                "rendered": "unitName B",
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  0.2753326440459658
+</td>,
+                <td>
+                  NOME C
+</td>,
+                <td>
+                  unitName C
+</td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "key - 0 - 0.2753326440459658",
+                "nodeType": "host",
+                "props": Object {
+                  "children": 0.2753326440459658,
+                },
+                "ref": null,
+                "rendered": 0.2753326440459658,
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": "key - 1 - NOME C",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "NOME C",
+                },
+                "ref": null,
+                "rendered": "NOME C",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": "key - 2 - unitName C",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "unitName C",
+                },
+                "ref": null,
+                "rendered": "unitName C",
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": "3",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  0.4615763028025677
+</td>,
+                <td>
+                  NOME D
+</td>,
+                <td>
+                  unitName D
+</td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "key - 0 - 0.4615763028025677",
+                "nodeType": "host",
+                "props": Object {
+                  "children": 0.4615763028025677,
+                },
+                "ref": null,
+                "rendered": 0.4615763028025677,
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": "key - 1 - NOME D",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "NOME D",
+                },
+                "ref": null,
+                "rendered": "NOME D",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": "key - 2 - unitName D",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "unitName D",
+                },
+                "ref": null,
+                "rendered": "unitName D",
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+        ],
+        "type": "tbody",
+      },
+    ],
+    "type": "table",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <thead>
+            <tr>
+                        <th>
+                                    _id
+                        </th>
+                        <th>
+                                    name
+                        </th>
+                        <th>
+                                    unitName
+                        </th>
+            </tr>
+</thead>,
+          <tbody>
+            <tr>
+                        <td>
+                                    0.7969802703389741
+                        </td>
+                        <td>
+                                    NOME A
+                        </td>
+                        <td>
+                                    unitName A
+                        </td>
+            </tr>
+            <tr>
+                        <td>
+                                    0.019174600142986664
+                        </td>
+                        <td>
+                                    NOME B
+                        </td>
+                        <td>
+                                    unitName B
+                        </td>
+            </tr>
+            <tr>
+                        <td>
+                                    0.2753326440459658
+                        </td>
+                        <td>
+                                    NOME C
+                        </td>
+                        <td>
+                                    unitName C
+                        </td>
+            </tr>
+            <tr>
+                        <td>
+                                    0.4615763028025677
+                        </td>
+                        <td>
+                                    NOME D
+                        </td>
+                        <td>
+                                    unitName D
+                        </td>
+            </tr>
+</tbody>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <tr>
+              <th>
+                            _id
+              </th>
+              <th>
+                            name
+              </th>
+              <th>
+                            unitName
+              </th>
+</tr>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <th>
+                  _id
+</th>,
+                <th>
+                  name
+</th>,
+                <th>
+                  unitName
+</th>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "key - 0 - _id",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "_id",
+                },
+                "ref": null,
+                "rendered": "_id",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": "key - 1 - name",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "name",
+                },
+                "ref": null,
+                "rendered": "name",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": "key - 2 - unitName",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "unitName",
+                },
+                "ref": null,
+                "rendered": "unitName",
+                "type": "th",
+              },
+            ],
+            "type": "tr",
+          },
+          "type": "thead",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <tr>
+                <td>
+                                0.7969802703389741
+                </td>
+                <td>
+                                NOME A
+                </td>
+                <td>
+                                unitName A
+                </td>
+</tr>,
+              <tr>
+                <td>
+                                0.019174600142986664
+                </td>
+                <td>
+                                NOME B
+                </td>
+                <td>
+                                unitName B
+                </td>
+</tr>,
+              <tr>
+                <td>
+                                0.2753326440459658
+                </td>
+                <td>
+                                NOME C
+                </td>
+                <td>
+                                unitName C
+                </td>
+</tr>,
+              <tr>
+                <td>
+                                0.4615763028025677
+                </td>
+                <td>
+                                NOME D
+                </td>
+                <td>
+                                unitName D
+                </td>
+</tr>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td>
+                    0.7969802703389741
+</td>,
+                  <td>
+                    NOME A
+</td>,
+                  <td>
+                    unitName A
+</td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "key - 0 - 0.7969802703389741",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 0.7969802703389741,
+                  },
+                  "ref": null,
+                  "rendered": 0.7969802703389741,
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": "key - 1 - NOME A",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "NOME A",
+                  },
+                  "ref": null,
+                  "rendered": "NOME A",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": "key - 2 - unitName A",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "unitName A",
+                  },
+                  "ref": null,
+                  "rendered": "unitName A",
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td>
+                    0.019174600142986664
+</td>,
+                  <td>
+                    NOME B
+</td>,
+                  <td>
+                    unitName B
+</td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "key - 0 - 0.019174600142986664",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 0.019174600142986664,
+                  },
+                  "ref": null,
+                  "rendered": 0.019174600142986664,
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": "key - 1 - NOME B",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "NOME B",
+                  },
+                  "ref": null,
+                  "rendered": "NOME B",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": "key - 2 - unitName B",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "unitName B",
+                  },
+                  "ref": null,
+                  "rendered": "unitName B",
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td>
+                    0.2753326440459658
+</td>,
+                  <td>
+                    NOME C
+</td>,
+                  <td>
+                    unitName C
+</td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "key - 0 - 0.2753326440459658",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 0.2753326440459658,
+                  },
+                  "ref": null,
+                  "rendered": 0.2753326440459658,
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": "key - 1 - NOME C",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "NOME C",
+                  },
+                  "ref": null,
+                  "rendered": "NOME C",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": "key - 2 - unitName C",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "unitName C",
+                  },
+                  "ref": null,
+                  "rendered": "unitName C",
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td>
+                    0.4615763028025677
+</td>,
+                  <td>
+                    NOME D
+</td>,
+                  <td>
+                    unitName D
+</td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "key - 0 - 0.4615763028025677",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 0.4615763028025677,
+                  },
+                  "ref": null,
+                  "rendered": 0.4615763028025677,
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": "key - 1 - NOME D",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "NOME D",
+                  },
+                  "ref": null,
+                  "rendered": "NOME D",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": "key - 2 - unitName D",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "unitName D",
+                  },
+                  "ref": null,
+                  "rendered": "unitName D",
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+          ],
+          "type": "tbody",
+        },
+      ],
+      "type": "table",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
