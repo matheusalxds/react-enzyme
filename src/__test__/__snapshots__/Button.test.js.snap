@@ -5,7 +5,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Unknown
-    name=""
+    label=""
 />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -19,14 +19,14 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "className": "button",
+      "children": "",
+      "className": "undefined",
       "onClick": undefined,
       "type": "button",
-      "value": "",
     },
     "ref": null,
-    "rendered": null,
-    "type": "input",
+    "rendered": "",
+    "type": "button",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -34,14 +34,14 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "className": "button",
+        "children": "",
+        "className": "undefined",
         "onClick": undefined,
         "type": "button",
-        "value": "",
       },
       "ref": null,
-      "rendered": null,
-      "type": "input",
+      "rendered": "",
+      "type": "button",
     },
   ],
   Symbol(enzyme.__options__): Object {
@@ -59,7 +59,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Unknown
-    name="button test"
+    label="button test"
 />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -73,14 +73,14 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "className": "button",
+      "children": "button test",
+      "className": "undefined",
       "onClick": undefined,
       "type": "button",
-      "value": "button test",
     },
     "ref": null,
-    "rendered": null,
-    "type": "input",
+    "rendered": "button test",
+    "type": "button",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -88,14 +88,14 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "className": "button",
+        "children": "button test",
+        "className": "undefined",
         "onClick": undefined,
         "type": "button",
-        "value": "button test",
       },
       "ref": null,
-      "rendered": null,
-      "type": "input",
+      "rendered": "button test",
+      "type": "button",
     },
   ],
   Symbol(enzyme.__options__): Object {

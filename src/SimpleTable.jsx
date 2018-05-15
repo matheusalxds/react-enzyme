@@ -9,8 +9,8 @@ class SimpleTable extends Component {
   })}</tr>;
 
   render() {
-    const {data} = this.props;
-    return data ? (
+    const {data, cols} = this.props;
+    return data && cols? (
     <table>
       <thead>
       {this.renderTableHeader()}
